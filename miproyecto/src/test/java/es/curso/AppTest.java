@@ -20,49 +20,49 @@ public class AppTest
     }
     
     @Test
-    public static int pruebaDoblar()
+    public void pruebaDoblar()
     {
         int resultado=App.doblar(5);
         assertEquals( resultado, 10 );
     }
     
     @Test
-    public static int pruebaDoblarCero()
+    public void pruebaDoblarCero()
     {
         int resultado=App.doblar(0);
         assertEquals( resultado, 0 );
     }
     
     @Test
-    public static int pruebaDoblarNegativo()
+    public void pruebaDoblarNegativo()
     {
         int resultado=App.doblar(-5);
         assertEquals( resultado, -10 );
     }
     
     @Test
-    public static int pruebaMayorPrimero()
+    public void pruebaMayorPrimero()
     {
         int resultado=App.mayor(10, 5);
         assertEquals( resultado, 10 );
     }
     
     @Test
-    public static int pruebaMayorSegundo()
+    public void pruebaMayorSegundo()
     {
         int resultado=App.mayor(1, 5);
         assertEquals( resultado, 5 );
     }
     
     @Test
-    public static int pruebaMayorIguales()
+    public void pruebaMayorIguales()
     {
         int resultado=App.mayor(5, 5);
         assertEquals( resultado, 5 );
     }
     
     @Test
-    public static int pruebaMayorNegativos()
+    public void pruebaMayorNegativos()
     {
         int resultado=App.mayor(5, -5);
         assertEquals( resultado, 5 );
