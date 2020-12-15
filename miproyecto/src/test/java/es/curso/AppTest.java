@@ -65,7 +65,7 @@ public class AppTest
     public void pruebaMayorNegativos()
     {
         int resultado=App.mayor(5, -5);
-        assertEquals( resultado, 5 );
+        assertEquals( resultado, -5 );
     }
     
 }
